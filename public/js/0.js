@@ -25,6 +25,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -52,31 +53,43 @@ var render = function() {
   return _c("layout", [
     _c(
       "div",
-      { staticClass: "bg-white rounded-lg p-10 inset-y-auto object-center" },
+      {
+        staticClass:
+          "bg-white rounded-lg p-10 inset-y-auto object-center border-2 border-yellow-500"
+      },
       [
-        _c("img", {
-          staticClass:
-            "h-56 w-56 rounded-full mx-auto border-2 border-yellow-600",
-          attrs: { src: "/images/avatar_alt.jpg" }
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "text-center" }, [
-          _c("h2", { staticClass: "text-lg" }, [_vm._v("Matt Strauss")]),
-          _vm._v(" "),
-          _c("div", { staticClass: "text-yellow-700" }, [
-            _vm._v("Full Stack Developer")
+        _c("div", { staticClass: "text-center text-gray-600" }, [
+          _c("h2", { staticClass: "text-xl font-thin text-yellow-700 pb-3" }, [
+            _vm._v("Contact Me")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-gray-600" }, [
-            _vm._v("Pennsylvania, USA")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "text-gray-600" }, [
-            _vm._v("Software Engineering Student")
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "text-gray-600" }, [
-            _vm._v("PHP, Laravel, Vue, Automated Testing")
+          _c("ul", { staticClass: "no-disc" }, [
+            _c("li", { staticClass: "hover:text-yellow-700" }, [
+              _c("a", { attrs: { href: "mailto:strausstester@gmail.com" } }, [
+                _vm._v("strausstester@gmail.com")
+              ])
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "hover:text-yellow-700" }, [
+              _c("a", { attrs: { href: "https://github.com/570studio" } }, [
+                _vm._v("@570studio")
+              ]),
+              _vm._v(" (GitHub)")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "hover:text-yellow-700" }, [
+              _c("a", { attrs: { href: "https://twitter.com/mstrauss_dev" } }, [
+                _vm._v("@strauss_dev")
+              ]),
+              _vm._v(" (Twitter)")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "hover:text-yellow-700" }, [
+              _c("a", { attrs: { href: "https://laracasts.com/@mstrauss" } }, [
+                _vm._v("@mstrauss")
+              ]),
+              _vm._v(" (Laracasts) ")
+            ])
           ])
         ])
       ]
