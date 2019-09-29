@@ -17,6 +17,72 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -42,9 +108,218 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("layout", [
-    _c("h1", [_vm._v("About")]),
-    _vm._v(" "),
-    _c("p", [_vm._v("This is the about page... ")])
+    _c("div", { staticClass: "object-cover" }, [
+      _c(
+        "div",
+        {
+          staticClass:
+            "bg-white rounded-lg p-4 object-center text-center border-2 border-yellow-500"
+        },
+        [
+          _c("div", { staticClass: "ml-40 mr-40" }, [
+            _c("h2", { staticClass: "text-xl text-black text-thin" }, [
+              _vm._v("About Me")
+            ]),
+            _vm._v(" "),
+            _c("p", { staticClass: "italic text-gray-600 text-thin" }, [
+              _vm._v(
+                "\n                    I'm a free lance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are\n                    stronger on the backend. But, with the advent of new tools like Inertia.js and TailwindCSS, the frontend is becoming more and more fun.\n                    In addition to being a developer, I am also currently studying Software Engineering at the Pennsylvania State University to gain deeper insights and a\n                    more rigorous understanding of core software concepts, architecture, etc.\n                "
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "h2",
+            { staticClass: "text-xl text-black text-thin text-center pt-8" },
+            [_vm._v("Familiar Technologies")]
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "flex content-start flex-wrap ml-40 mr-40 text-sm text-gray-700"
+            },
+            [
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "w-1/3 m-2 text-center bg-yellow-100 rounded flex-grow p-3"
+                },
+                [
+                  _c("h4", { staticClass: "text-xl text-bold pt-2" }, [
+                    _vm._v("Backend")
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "no-disc" }, [
+                    _c("li", [
+                      _c("strong", [_vm._v("PHP")]),
+                      _vm._v(": Used since 2006")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("SQL")]),
+                      _vm._v(": Used since 2006")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("MySQL")]),
+                      _vm._v(": Used since 2006")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel")]),
+                      _vm._v(": Used since 2015")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("NoSQL")]),
+                      _vm._v(": Used since 2018")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "w-1/3 m-2 text-center bg-yellow-100 rounded flex-grow p-3"
+                },
+                [
+                  _c("h4", { staticClass: "text-xl text-bold pt-3" }, [
+                    _vm._v("Frontend")
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "no-disc" }, [
+                    _c("li", [
+                      _c("strong", [_vm._v("Javascript")]),
+                      _vm._v(": Used since 2006")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("HTML")]),
+                      _vm._v(": Used since 2006")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("CSS")]),
+                      _vm._v(": Used since 2006")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("JQuery")]),
+                      _vm._v(": Used since 2007")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Angular.js")]),
+                      _vm._v(": Used since 2016")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Vue.js")]),
+                      _vm._v(": Used since 2017")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel Mix")]),
+                      _vm._v(": Used since 2017")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Babel")]),
+                      _vm._v(": Used since 2017")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("TailwindCss")]),
+                      _vm._v(": Used since 2019")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Inertia.js")]),
+                      _vm._v(": Used since 2019")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "w-1/3 m-2 text-center bg-yellow-100 rounded flex-grow p3"
+                },
+                [
+                  _c("h4", { staticClass: "text-xl text-bold pt-3" }, [
+                    _vm._v("Automated Testing")
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "no-disc" }, [
+                    _c("li", [
+                      _c("strong", [_vm._v("PHPUnit")]),
+                      _vm._v(": Used since 2016")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel Dusk")]),
+                      _vm._v(": Used since 2017")
+                    ])
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass:
+                    "w-1/3 m-2 text-center bg-yellow-100 rounded flex-grow p-3"
+                },
+                [
+                  _c("h4", { staticClass: "text-xl text-bold pt-3" }, [
+                    _vm._v("Misc.")
+                  ]),
+                  _vm._v(" "),
+                  _c("ul", { staticClass: "no-disc" }, [
+                    _c("li", [
+                      _c("strong", [_vm._v("WordPress")]),
+                      _vm._v(": Used since 2012")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel Cashier")]),
+                      _vm._v(": Used since 2015")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("PHP Storm (IDE)")]),
+                      _vm._v(": Used since 2016")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel Forge")]),
+                      _vm._v(": Used since 2017")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel Spark")]),
+                      _vm._v(": Used since 2017")
+                    ]),
+                    _vm._v(" "),
+                    _c("li", [
+                      _c("strong", [_vm._v("Laravel Valet")]),
+                      _vm._v(": Used since 2018")
+                    ])
+                  ])
+                ]
+              )
+            ]
+          )
+        ]
+      )
+    ])
   ])
 }
 var staticRenderFns = []

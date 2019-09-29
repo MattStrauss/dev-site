@@ -17,6 +17,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -42,9 +50,37 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("layout", [
-    _c("h1", [_vm._v("Contact")]),
-    _vm._v(" "),
-    _c("p", [_vm._v("This is the contact page... ")])
+    _c(
+      "div",
+      { staticClass: "bg-white rounded-lg p-10 inset-y-auto object-center" },
+      [
+        _c("img", {
+          staticClass:
+            "h-56 w-56 rounded-full mx-auto border-2 border-yellow-600",
+          attrs: { src: "/images/avatar_alt.jpg" }
+        }),
+        _vm._v(" "),
+        _c("div", { staticClass: "text-center" }, [
+          _c("h2", { staticClass: "text-lg" }, [_vm._v("Matt Strauss")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-yellow-700" }, [
+            _vm._v("Full Stack Developer")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-gray-600" }, [
+            _vm._v("Pennsylvania, USA")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-gray-600" }, [
+            _vm._v("Software Engineering Student")
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "text-gray-600" }, [
+            _vm._v("PHP, Laravel, Vue, Automated Testing")
+          ])
+        ])
+      ]
+    )
   ])
 }
 var staticRenderFns = []

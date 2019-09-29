@@ -25,7 +25,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -53,7 +52,10 @@ var render = function() {
   return _c("layout", [
     _c(
       "div",
-      { staticClass: "bg-white rounded-lg p-10 inset-y-auto object-center" },
+      {
+        staticClass:
+          "bg-white rounded-lg p-10 border-2 border-yellow-500 inset-y-auto object-center"
+      },
       [
         _c("img", {
           staticClass:
@@ -61,24 +63,20 @@ var render = function() {
           attrs: { src: "/images/avatar_alt.jpg" }
         }),
         _vm._v(" "),
-        _c("div", { staticClass: "text-center" }, [
-          _c("h2", { staticClass: "text-lg" }, [_vm._v("Matt Strauss")]),
+        _c("div", { staticClass: "text-center text-gray-600" }, [
+          _c("h2", { staticClass: "text-lg text-black" }, [
+            _vm._v("Matt Strauss")
+          ]),
           _vm._v(" "),
           _c("div", { staticClass: "text-yellow-700" }, [
             _vm._v("Full Stack Developer")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-gray-600" }, [
-            _vm._v("Pennsylvania, USA")
-          ]),
+          _c("div", [_vm._v("Pennsylvania, USA")]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-gray-600" }, [
-            _vm._v("Software Engineering Student")
-          ]),
+          _c("div", [_vm._v("Software Engineering Student")]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-gray-600" }, [
-            _vm._v("PHP, Laravel, Vue, Automated Testing")
-          ])
+          _c("div", [_vm._v("PHP, Laravel, Vue, Automated Testing")])
         ])
       ]
     )
