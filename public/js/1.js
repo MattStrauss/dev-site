@@ -74,8 +74,8 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("li", { staticClass: "hover:text-yellow-700" }, [
-              _c("a", { attrs: { href: "https://github.com/570studio" } }, [
-                _vm._v("@570studio "),
+              _c("a", { attrs: { href: "https://github.com/MattStrauss" } }, [
+                _vm._v("@MattStrauss "),
                 _c("i", { staticClass: "fab fa-github fa-fw" })
               ])
             ]),
