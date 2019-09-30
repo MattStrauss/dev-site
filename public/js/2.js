@@ -59,7 +59,7 @@ var render = function() {
       [
         _c("img", {
           staticClass:
-            "h-56 w-56 rounded-full mx-auto border-2 border-yellow-600",
+            "h-40 w-40 rounded-full mx-auto border-2 border-yellow-600",
           attrs: { src: "/images/avatar_alt.jpg" }
         }),
         _vm._v(" "),
