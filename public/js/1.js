@@ -61,11 +61,11 @@ var render = function() {
         _c("div", { staticClass: "text-center text-gray-600" }, [
           _c(
             "h2",
-            { staticClass: "text-xl font-thin text-yellow-700 border-b" },
-            [_vm._v("Contact Me")]
+            { staticClass: "text-3xl font-hairline text-yellow-700 border-b" },
+            [_vm._v("Contact Info")]
           ),
           _vm._v(" "),
-          _c("ul", { staticClass: "no-disc pt-2" }, [
+          _c("ul", { staticClass: "no-disc pt-2 leading-loose" }, [
             _c("li", { staticClass: "hover:text-yellow-700" }, [
               _c("a", { attrs: { href: "mailto:strausstester@gmail.com" } }, [
                 _vm._v("strausstester@gmail.com "),

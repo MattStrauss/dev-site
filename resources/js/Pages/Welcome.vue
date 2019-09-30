@@ -2,7 +2,7 @@
     <layout>
           <div class="bg-white rounded-lg p-10 border-2 border-yellow-500 inset-y-auto object-center">
             <img class="h-40 w-40 rounded-full mx-auto border-2 border-yellow-600" src="/images/avatar_alt.jpg">
-              <div class="text-center text-gray-600">
+              <div class="text-center text-gray-600 font-thin">
                   <h2 class="text-lg text-black">Matt Strauss</h2>
                   <div class="text-yellow-700">Full Stack Developer</div>
                   <div>Pennsylvania, USA</div>

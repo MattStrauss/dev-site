@@ -120,10 +120,12 @@ var render = function() {
             "bg-white rounded-lg p-4 object-center text-center border-2 border-yellow-500"
         },
         [
-          _c("div", { staticClass: "ml-40 mr-40 pb-5" }, [
+          _c("div", { staticClass: "md:ml-40 md:mr-40  pb-5" }, [
             _c(
               "p",
-              { staticClass: "text-3xl text-black font-hairline border-b" },
+              {
+                staticClass: "text-3xl text-yellow-700 font-hairline border-b"
+              },
               [_vm._v("About Me")]
             ),
             _vm._v(" "),
@@ -134,7 +136,7 @@ var render = function() {
               _c(
                 "a",
                 {
-                  staticClass: "underline hover:text-yellow-600",
+                  staticClass: "underline hover:text-yellow-700",
                   attrs: { href: "https://github.com/inertiajs" }
                 },
                 [_vm._v(" Inertia.js")]
@@ -143,7 +145,7 @@ var render = function() {
               _c(
                 "a",
                 {
-                  staticClass: "underline hover:text-yellow-600",
+                  staticClass: "underline hover:text-yellow-700",
                   attrs: { href: "https://tailwindcss.com/" }
                 },
                 [_vm._v("TailwindCSS")]
@@ -162,10 +164,12 @@ var render = function() {
             ])
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "ml-40 mr-40 pt-5 text-center" }, [
+          _c("div", { staticClass: "md:ml-40 md:mr-40 pt-5 text-center" }, [
             _c(
               "h2",
-              { staticClass: "text-3xl text-black font-hairline border-b" },
+              {
+                staticClass: "text-3xl text-yellow-700 font-hairline border-b"
+              },
               [_vm._v("Familiar Technologies")]
             ),
             _vm._v(" "),

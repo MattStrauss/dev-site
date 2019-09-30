@@ -4,20 +4,20 @@
 
             <div class="bg-white rounded-lg p-4 object-center text-center border-2 border-yellow-500">
 
-                <div class="ml-40 mr-40 pb-5">
-                    <p class="text-3xl text-black font-hairline border-b">About Me</p>
+                <div class="md:ml-40 md:mr-40  pb-5">
+                    <p class="text-3xl text-yellow-700 font-hairline border-b">About Me</p>
                     <p class="italic text-gray-600 text-thin pt-2">
                         I'm a free lance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are
-                        stronger on the backend. But, with the advent of new tools like <a href="https://github.com/inertiajs" class="underline hover:text-yellow-600"> Inertia.js</a>
-                        and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-600">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
+                        stronger on the backend. But, with the advent of new tools like <a href="https://github.com/inertiajs" class="underline hover:text-yellow-700"> Inertia.js</a>
+                        and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-700">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
                         interested in open source software and am a Laravel Core contributor. <strong>I also firmly believe that automated testing saves lives</strong>.
                         In addition to being a developer, I am currently studying Software Engineering at the Pennsylvania State University to gain deeper insights and a
                         more rigorous understanding of core software concepts, architecture, etc.
                     </p>
                 </div>
 
-                <div class="ml-40 mr-40 pt-5 text-center">
-                    <h2 class="text-3xl text-black font-hairline border-b">Familiar Technologies</h2>
+                <div class="md:ml-40 md:mr-40 pt-5 text-center">
+                    <h2 class="text-3xl text-yellow-700 font-hairline border-b">Familiar Technologies</h2>
 
                     <div class="flex content-start flex-wrap text-sm text-gray-700 pt-2">
 

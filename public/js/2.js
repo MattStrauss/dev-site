@@ -63,7 +63,7 @@ var render = function() {
           attrs: { src: "/images/avatar_alt.jpg" }
         }),
         _vm._v(" "),
-        _c("div", { staticClass: "text-center text-gray-600" }, [
+        _c("div", { staticClass: "text-center text-gray-600 font-thin" }, [
           _c("h2", { staticClass: "text-lg text-black" }, [
             _vm._v("Matt Strauss")
           ]),
