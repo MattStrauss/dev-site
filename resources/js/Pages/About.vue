@@ -7,7 +7,7 @@
                 <div class="md:ml-40 md:mr-40  pb-5">
                     <p class="text-3xl text-yellow-700 font-hairline border-b">About Me</p>
                     <p class="italic text-gray-600 text-thin pt-2">
-                        I'm a free lance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are
+                        I'm a freelance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are
                         stronger on the backend. But, with the advent of new tools like <a href="https://github.com/inertiajs" class="underline hover:text-yellow-700"> Inertia.js</a>
                         and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-700">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
                         interested in open source software and am a Laravel Core contributor. <strong>I also firmly believe that automated testing saves lives</strong>.
