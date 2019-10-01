@@ -87,6 +87,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -131,7 +132,7 @@ var render = function() {
             _vm._v(" "),
             _c("p", { staticClass: "italic text-gray-600 text-thin pt-2" }, [
               _vm._v(
-                "\n                    I'm a free lance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are\n                    stronger on the backend. But, with the advent of new tools like "
+                "\n                    I'm a freelance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are\n                    stronger on the backend. But, with the advent of new tools like "
               ),
               _c(
                 "a",
@@ -177,7 +178,7 @@ var render = function() {
               "div",
               {
                 staticClass:
-                  "flex content-start flex-wrap text-sm text-gray-700 pt-2"
+                  "flex content-start flex-wrap text text-gray-600 pt-2"
               },
               [
                 _c(
@@ -248,6 +249,11 @@ var render = function() {
                       _c("li", [
                         _c("strong", [_vm._v("JQuery")]),
                         _vm._v(": Used since 2007")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Bootstrap")]),
+                        _vm._v(": Used since 2014")
                       ]),
                       _vm._v(" "),
                       _c("li", [

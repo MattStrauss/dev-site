@@ -19,7 +19,7 @@
                 <div class="md:ml-40 md:mr-40 pt-5 text-center">
                     <h2 class="text-3xl text-yellow-700 font-hairline border-b">Familiar Technologies</h2>
 
-                    <div class="flex content-start flex-wrap text-sm text-gray-700 pt-2">
+                    <div class="flex content-start flex-wrap text text-gray-600 pt-2">
 
                         <div class="w-1/3 m-2 bg-yellow-100 rounded flex-grow p-3">
                             <h4 class="text-xl text-bold pt-2">Backend</h4>
@@ -39,6 +39,7 @@
                                 <li><strong>HTML</strong>: Used since 2006</li>
                                 <li><strong>CSS</strong>: Used since 2006</li>
                                 <li><strong>JQuery</strong>: Used since 2007</li>
+                                <li><strong>Bootstrap</strong>: Used since 2014</li>
                                 <li><strong>Angular.js</strong>: Used since 2016</li>
                                 <li><strong>Vue.js</strong>: Used since 2017</li>
                                 <li><strong>Laravel Mix</strong>: Used since 2017</li>
