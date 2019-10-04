@@ -25,6 +25,83 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -50,36 +127,289 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("layout", [
-    _c(
-      "div",
-      {
+    _c("div", { staticClass: "bg-gray-600 p-10 inset-y-auto object-center" }, [
+      _c("img", {
         staticClass:
-          "bg-white rounded-lg p-10 border-2 border-yellow-500 inset-y-auto object-center"
-      },
-      [
-        _c("img", {
-          staticClass:
-            "h-40 w-40 rounded-full mx-auto border-2 border-yellow-600",
-          attrs: { src: "/images/avatar_alt.jpg" }
-        }),
+          "h-40 w-40 rounded-full mx-auto border-2 border-yellow-500",
+        attrs: { src: "/images/avatar_alt.jpg" }
+      }),
+      _vm._v(" "),
+      _c("div", {
+        staticClass:
+          "w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3"
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "text-center text-gray-100 font-thin" }, [
+        _c("h2", { staticClass: "text-lg" }, [_vm._v("Matt Strauss")]),
         _vm._v(" "),
-        _c("div", { staticClass: "text-center text-gray-600 font-thin" }, [
-          _c("h2", { staticClass: "text-lg text-black" }, [
-            _vm._v("Matt Strauss")
+        _c("div", { staticClass: "text-yellow-500" }, [
+          _vm._v("Full Stack Developer")
+        ]),
+        _vm._v(" "),
+        _c("div", [_vm._v("Pennsylvania, USA")]),
+        _vm._v(" "),
+        _c("div", [_vm._v("PHP, Laravel, Vue, Automated Testing")])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "object-cover" }, [
+      _c(
+        "div",
+        { staticClass: "bg-gray-700 p-4 object-center text-center pb-20" },
+        [
+          _c("div", { staticClass: "md:ml-40 md:mr-40  pb-5" }, [
+            _c("p", { staticClass: "text-3xl text-yellow-500 font-hairline" }, [
+              _vm._v("About")
+            ]),
+            _vm._v(" "),
+            _c("div", {
+              staticClass:
+                "w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3"
+            }),
+            _vm._v(" "),
+            _c(
+              "p",
+              { staticClass: "italic text-gray-100 text-hairline pt-2" },
+              [
+                _vm._v(
+                  "\n                    I'm a freelance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are\n                    stronger on the backend. But, with the advent of new tools like "
+                ),
+                _c(
+                  "a",
+                  {
+                    staticClass: "underline hover:text-yellow-700",
+                    attrs: { href: "https://github.com/inertiajs" }
+                  },
+                  [_vm._v(" Inertia.js")]
+                ),
+                _vm._v("\n                    and "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "underline hover:text-yellow-700",
+                    attrs: { href: "https://tailwindcss.com/" }
+                  },
+                  [_vm._v("TailwindCSS")]
+                ),
+                _vm._v(
+                  ", the frontend is becoming more and more fun. I am keenly\n                    interested in open source software and am a Laravel Core contributor. "
+                ),
+                _c("strong", [
+                  _vm._v(
+                    "I also firmly believe that automated testing saves lives"
+                  )
+                ]),
+                _vm._v(
+                  ".\n                    In addition to being a developer, I am currently studying Software Engineering at the Pennsylvania State University to gain deeper insights and a\n                    more rigorous understanding of core software concepts, architecture, etc.\n                "
+                )
+              ]
+            )
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "text-yellow-700" }, [
-            _vm._v("Full Stack Developer")
-          ]),
-          _vm._v(" "),
-          _c("div", [_vm._v("Pennsylvania, USA")]),
-          _vm._v(" "),
-          _c("div", [_vm._v("Software Engineering Student")]),
-          _vm._v(" "),
-          _c("div", [_vm._v("PHP, Laravel, Vue, Automated Testing")])
-        ])
-      ]
-    )
+          _c("div", { staticClass: "md:ml-40 md:mr-40 pt-5 text-center" }, [
+            _c(
+              "h2",
+              { staticClass: "text-3xl text-yellow-500 font-hairline" },
+              [_vm._v("Familiar Tech")]
+            ),
+            _vm._v(" "),
+            _c("div", {
+              staticClass:
+                "w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3"
+            }),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "flex content-start flex-wrap text text-gray-600 pt-2"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "w-1/3 m-2 bg-yellow-500 rounded flex-grow p-3"
+                  },
+                  [
+                    _c("h4", { staticClass: "text-xl text-bold pt-2" }, [
+                      _vm._v("Backend")
+                    ]),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "no-disc" }, [
+                      _c("li", [
+                        _c("strong", [_vm._v("PHP")]),
+                        _vm._v(": Used since 2006")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("SQL")]),
+                        _vm._v(": Used since 2006")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("MySQL")]),
+                        _vm._v(": Used since 2006")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel")]),
+                        _vm._v(": Used since 2015")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("NoSQL")]),
+                        _vm._v(": Used since 2018")
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "w-1/3 m-2 bg-gray-600 rounded flex-grow p-3"
+                  },
+                  [
+                    _c(
+                      "h4",
+                      { staticClass: "text-xl text-yellow-500 text-bold pt-3" },
+                      [_vm._v("Frontend")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "no-disc text-yellow-500" }, [
+                      _c("li", [
+                        _c("strong", [_vm._v("Javascript")]),
+                        _vm._v(": Used since 2006")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("HTML")]),
+                        _vm._v(": Used since 2006")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("CSS")]),
+                        _vm._v(": Used since 2006")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("JQuery")]),
+                        _vm._v(": Used since 2007")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Bootstrap")]),
+                        _vm._v(": Used since 2014")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Angular.js")]),
+                        _vm._v(": Used since 2016")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Vue.js")]),
+                        _vm._v(": Used since 2017")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel Mix")]),
+                        _vm._v(": Used since 2017")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Babel")]),
+                        _vm._v(": Used since 2017")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("TailwindCss")]),
+                        _vm._v(": Used since 2019")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Inertia.js")]),
+                        _vm._v(": Used since 2019")
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "w-1/3 m-2 bg-gray-600 rounded flex-grow p-3"
+                  },
+                  [
+                    _c(
+                      "h4",
+                      { staticClass: "text-xl text-yellow-500 text-bold pt-3" },
+                      [_vm._v("Automated Testing")]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "no-disc text-yellow-500" }, [
+                      _c("li", [
+                        _c("strong", [_vm._v("PHPUnit")]),
+                        _vm._v(": Used since 2016")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel Dusk")]),
+                        _vm._v(": Used since 2017")
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass: "w-1/3 m-2 bg-yellow-500 rounded flex-grow p-3"
+                  },
+                  [
+                    _c("h4", { staticClass: "text-xl text-bold pt-3" }, [
+                      _vm._v("Misc.")
+                    ]),
+                    _vm._v(" "),
+                    _c("ul", { staticClass: "no-disc" }, [
+                      _c("li", [
+                        _c("strong", [_vm._v("WordPress")]),
+                        _vm._v(": Used since 2012")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel Cashier")]),
+                        _vm._v(": Used since 2015")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("PHP Storm (IDE)")]),
+                        _vm._v(": Used since 2016")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel Forge")]),
+                        _vm._v(": Used since 2017")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel Spark")]),
+                        _vm._v(": Used since 2017")
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("strong", [_vm._v("Laravel Valet")]),
+                        _vm._v(": Used since 2018")
+                      ])
+                    ])
+                  ]
+                )
+              ]
+            )
+          ])
+        ]
+      )
+    ])
   ])
 }
 var staticRenderFns = []
@@ -104,38 +434,33 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("main", [
+  return _c("main", { staticClass: "border-t-8 border-yellow-500" }, [
     _c(
       "header",
-      { staticClass: "flex justify-start p-3" },
+      { staticClass: "flex flex-row-reverse text-gray-100 p-3" },
       [
         _c(
           "inertia-link",
           {
             class:
-              _vm.$page.route === "welcome" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/" }
+              _vm.$page.route === "contact"
+                ? "text-yellow-500 p-2"
+                : "p-2 hover:text-yellow-500",
+            attrs: { href: "/contact" }
           },
-          [_vm._v("Home ")]
-        ),
-        _vm._v(" "),
-        _c(
-          "inertia-link",
-          {
-            class: _vm.$page.route === "about" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/about" }
-          },
-          [_vm._v("About")]
+          [_c("i", { staticClass: "fas fa-at fa-fw" })]
         ),
         _vm._v(" "),
         _c(
           "inertia-link",
           {
             class:
-              _vm.$page.route === "contact" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/contact" }
+              _vm.$page.route === "welcome"
+                ? "text-yellow-500 p-2"
+                : "p-2 hover:text-yellow-500",
+            attrs: { href: "/" }
           },
-          [_vm._v("Contact")]
+          [_c("i", { staticClass: "fa fa-home fa-fw" })]
         )
       ],
       1

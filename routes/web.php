@@ -12,6 +12,5 @@
 */
 
 Route::get('/', 'PageController@index')->name('welcome');
-Route::get('/about', 'PageController@about')->name('about');
 Route::get('/contact', 'PageController@contact')->name('contact');
 

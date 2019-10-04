@@ -26,6 +26,25 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -51,48 +70,71 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("layout", [
+    _c("div", { staticClass: "bg-gray-600 p-10 inset-y-auto object-center" }, [
+      _c("div", { staticClass: "text-center text-gray-100" }, [
+        _c("h2", { staticClass: "text-3xl font-hairline text-yellow-500" }, [
+          _vm._v("Contact")
+        ]),
+        _vm._v(" "),
+        _c("div", {
+          staticClass:
+            "w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3"
+        }),
+        _vm._v(" "),
+        _c("ul", { staticClass: "no-disc pt-2 leading-loose" }, [
+          _c("li", { staticClass: "hover:text-yellow-500" }, [
+            _c("a", { attrs: { href: "mailto:strausstester@gmail.com" } }, [
+              _c("i", { staticClass: "far fa-envelope fa-fw" }),
+              _vm._v(" strausstester@gmail.com "),
+              _c("i", { staticClass: "far fa-envelope fa-fw" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "hover:text-yellow-500" }, [
+            _c("a", { attrs: { href: "https://github.com/MattStrauss" } }, [
+              _c("i", { staticClass: "fab fa-github fa-fw" }),
+              _vm._v(" @MattStrauss "),
+              _c("i", { staticClass: "fab fa-github fa-fw" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "hover:text-yellow-500" }, [
+            _c("a", { attrs: { href: "https://twitter.com/mstrauss_dev" } }, [
+              _c("i", { staticClass: "fab fa-twitter fa-fw" }),
+              _vm._v(" @strauss_dev "),
+              _c("i", { staticClass: "fab fa-twitter fa-fw" })
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "hover:text-yellow-500" }, [
+            _c("a", { attrs: { href: "https://laracasts.com/@mstrauss" } }, [
+              _c("i", { staticClass: "fab fa-laravel fa-fw" }),
+              _vm._v(" @mstrauss "),
+              _c("i", { staticClass: "fab fa-laravel fa-fw" })
+            ])
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
     _c(
       "div",
-      {
-        staticClass:
-          "bg-white rounded-lg p-10 inset-y-auto object-center border-2 border-yellow-500"
-      },
+      { staticClass: "bg-gray-700 p-4 object-center text-center pb-20" },
       [
-        _c("div", { staticClass: "text-center text-gray-600" }, [
-          _c(
-            "h2",
-            { staticClass: "text-3xl font-hairline text-yellow-700 border-b" },
-            [_vm._v("Contact Info")]
-          ),
+        _c("div", { staticClass: "md:ml-64 md:mr-64  pb-5" }, [
+          _c("p", { staticClass: "text-3xl text-yellow-500 font-hairline" }, [
+            _vm._v("For Hire")
+          ]),
           _vm._v(" "),
-          _c("ul", { staticClass: "no-disc pt-2 leading-loose" }, [
-            _c("li", { staticClass: "hover:text-yellow-700" }, [
-              _c("a", { attrs: { href: "mailto:strausstester@gmail.com" } }, [
-                _vm._v("strausstester@gmail.com "),
-                _c("i", { staticClass: "far fa-envelope fa-fw" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "hover:text-yellow-700" }, [
-              _c("a", { attrs: { href: "https://github.com/MattStrauss" } }, [
-                _vm._v("@MattStrauss "),
-                _c("i", { staticClass: "fab fa-github fa-fw" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "hover:text-yellow-700" }, [
-              _c("a", { attrs: { href: "https://twitter.com/mstrauss_dev" } }, [
-                _vm._v("@strauss_dev "),
-                _c("i", { staticClass: "fab fa-twitter fa-fw" })
-              ])
-            ]),
-            _vm._v(" "),
-            _c("li", { staticClass: "hover:text-yellow-700" }, [
-              _c("a", { attrs: { href: "https://laracasts.com/@mstrauss" } }, [
-                _vm._v("@mstrauss "),
-                _c("i", { staticClass: "fab fa-laravel fa-fw" })
-              ])
-            ])
+          _c("div", {
+            staticClass:
+              "w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3"
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "italic text-gray-100 text-hairline pt-2" }, [
+            _vm._v(
+              "\n                If you'd like to hire me to do work on your project or application, please email me at the address above with the details and we can discuss it.\n                To see my current projects and contributions check out my GitHub page.\n            "
+            )
           ])
         ])
       ]
@@ -121,38 +163,33 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("main", [
+  return _c("main", { staticClass: "border-t-8 border-yellow-500" }, [
     _c(
       "header",
-      { staticClass: "flex justify-start p-3" },
+      { staticClass: "flex flex-row-reverse text-gray-100 p-3" },
       [
         _c(
           "inertia-link",
           {
             class:
-              _vm.$page.route === "welcome" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/" }
+              _vm.$page.route === "contact"
+                ? "text-yellow-500 p-2"
+                : "p-2 hover:text-yellow-500",
+            attrs: { href: "/contact" }
           },
-          [_vm._v("Home ")]
-        ),
-        _vm._v(" "),
-        _c(
-          "inertia-link",
-          {
-            class: _vm.$page.route === "about" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/about" }
-          },
-          [_vm._v("About")]
+          [_c("i", { staticClass: "fas fa-at fa-fw" })]
         ),
         _vm._v(" "),
         _c(
           "inertia-link",
           {
             class:
-              _vm.$page.route === "contact" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/contact" }
+              _vm.$page.route === "welcome"
+                ? "text-yellow-500 p-2"
+                : "p-2 hover:text-yellow-500",
+            attrs: { href: "/" }
           },
-          [_vm._v("Contact")]
+          [_c("i", { staticClass: "fa fa-home fa-fw" })]
         )
       ],
       1

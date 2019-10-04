@@ -386,38 +386,33 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("main", [
+  return _c("main", { staticClass: "border-t-8 border-yellow-500" }, [
     _c(
       "header",
-      { staticClass: "flex justify-start p-3" },
+      { staticClass: "flex flex-row-reverse text-gray-100 p-3" },
       [
         _c(
           "inertia-link",
           {
             class:
-              _vm.$page.route === "welcome" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/" }
+              _vm.$page.route === "contact"
+                ? "text-yellow-500 p-2"
+                : "p-2 hover:text-yellow-500",
+            attrs: { href: "/contact" }
           },
-          [_vm._v("Home ")]
-        ),
-        _vm._v(" "),
-        _c(
-          "inertia-link",
-          {
-            class: _vm.$page.route === "about" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/about" }
-          },
-          [_vm._v("About")]
+          [_c("i", { staticClass: "fas fa-at fa-fw" })]
         ),
         _vm._v(" "),
         _c(
           "inertia-link",
           {
             class:
-              _vm.$page.route === "contact" ? "text-yellow-700 p-2" : "p-2",
-            attrs: { href: "/contact" }
+              _vm.$page.route === "welcome"
+                ? "text-yellow-500 p-2"
+                : "p-2 hover:text-yellow-500",
+            attrs: { href: "/" }
           },
-          [_vm._v("Contact")]
+          [_c("i", { staticClass: "fa fa-home fa-fw" })]
         )
       ],
       1
