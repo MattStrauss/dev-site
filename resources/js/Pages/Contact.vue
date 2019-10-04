@@ -12,7 +12,7 @@
                         <a href="https://github.com/MattStrauss"><i class="fab fa-github fa-fw"></i> @MattStrauss <i class="fab fa-github fa-fw"></i></a>
                     </li>
                     <li class="hover:text-yellow-500">
-                        <a href="https://twitter.com/mstrauss_dev"><i class="fab fa-twitter fa-fw"></i> @strauss_dev <i class="fab fa-twitter fa-fw"></i></a>
+                        <a href="https://twitter.com/mstrauss_dev"><i class="fab fa-twitter fa-fw"></i> @mstrauss_dev <i class="fab fa-twitter fa-fw"></i></a>
                     </li>
                     <li class="hover:text-yellow-500">
                         <a href="https://laracasts.com/@mstrauss"><i class="fab fa-laravel fa-fw"></i> @mstrauss <i class="fab fa-laravel fa-fw"></i></a>
@@ -25,7 +25,7 @@
                 <p class="text-3xl text-yellow-500 font-hairline">For Hire</p>
                 <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
                 <p class="italic text-gray-100 text-hairline pt-2">
-                    If you'd like to hire me to do work on your project or application, please email me at the address above with the details and we can discuss it.
+                    If you'd like to hire me to work on your project or application, please email me at the address above with the details and we can discuss it.
                     To see my current projects and contributions check out my GitHub page.
                 </p>
             </div>

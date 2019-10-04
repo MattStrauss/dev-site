@@ -20,8 +20,8 @@
                     <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
                     <p class="italic text-gray-100 text-hairline pt-2">
                         I'm a freelance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are
-                        stronger on the backend. But, with the advent of new tools like <a href="https://github.com/inertiajs" class="underline hover:text-yellow-700"> Inertia.js</a>
-                        and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-700">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
+                        stronger on the backend. But, with the advent of new tools like <a href="https://inertiajs.com/" class="underline hover:text-yellow-500"> Inertia.js</a>
+                        and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-500">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
                         interested in open source software and am a Laravel Core contributor. <strong>I also firmly believe that automated testing saves lives</strong>.
                         In addition to being a developer, I am currently studying Software Engineering at the Pennsylvania State University to gain deeper insights and a
                         more rigorous understanding of core software concepts, architecture, etc.
@@ -34,7 +34,7 @@
 
                     <div class="flex content-start flex-wrap text text-gray-600 pt-2">
 
-                        <div class="w-1/3 m-2 bg-yellow-500 rounded flex-grow p-3">
+                        <div class="w-1/3 m-2 bg-yellow-500 rounded flex-grow content-center p-3">
                             <h4 class="text-xl text-bold pt-2">Backend</h4>
                             <ul class="no-disc">
                                 <li><strong>PHP</strong>: Used since 2006</li>
