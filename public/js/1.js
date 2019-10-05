@@ -136,6 +136,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -478,54 +486,99 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("main", { staticClass: "border-t-8 border-yellow-500" }, [
-    _c(
-      "header",
-      { staticClass: "flex flex-col text-gray-100 p-3" },
-      [
-        _c("i", {
-          class: [
-            _vm.navMenuOpen
-              ? "fas fa-bars fa-fw fa-rotate-90 p-2 ml-2 cursor-pointer"
-              : "fas fa-bars fa-fw p-2 cursor-pointer"
-          ],
-          on: { click: _vm.toggleNavMenu }
-        }),
-        _vm._v(" "),
-        _vm.navMenuOpen
-          ? _c(
-              "inertia-link",
-              {
-                class:
-                  _vm.$page.route === "welcome"
-                    ? "text-yellow-500 p-2"
-                    : "p-2 hover:text-yellow-500",
-                attrs: { href: "/" }
-              },
-              [_c("i", { staticClass: "fa fa-home fa-fw" }), _vm._v(" Home ")]
-            )
-          : _vm._e(),
-        _vm._v(" "),
-        _vm.navMenuOpen
-          ? _c(
-              "inertia-link",
-              {
-                class:
-                  _vm.$page.route === "contact"
-                    ? "text-yellow-500 p-2"
-                    : "p-2 hover:text-yellow-500",
-                attrs: { href: "/contact" }
-              },
-              [_c("i", { staticClass: "fas fa-at fa-fw" }), _vm._v(" Contact")]
-            )
-          : _vm._e()
-      ],
-      1
-    ),
+    _c("header", { staticClass: "text-gray-100 p-3" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "flex flex-col" },
+        [
+          _c("i", {
+            class: [
+              _vm.navMenuOpen
+                ? "fas fa-bars fa-fw fa-rotate-90 p-2 ml-2 cursor-pointer"
+                : "fas fa-bars fa-fw p-2 cursor-pointer"
+            ],
+            on: { click: _vm.toggleNavMenu }
+          }),
+          _vm._v(" "),
+          _vm.navMenuOpen
+            ? _c(
+                "inertia-link",
+                {
+                  class:
+                    _vm.$page.route === "welcome"
+                      ? "text-yellow-500 p-2"
+                      : "p-2 hover:text-yellow-500",
+                  attrs: { href: "/" }
+                },
+                [_c("i", { staticClass: "fa fa-home fa-fw" }), _vm._v(" Home ")]
+              )
+            : _vm._e(),
+          _vm._v(" "),
+          _vm.navMenuOpen
+            ? _c(
+                "inertia-link",
+                {
+                  class:
+                    _vm.$page.route === "contact"
+                      ? "text-yellow-500 p-2"
+                      : "p-2 hover:text-yellow-500",
+                  attrs: { href: "/contact" }
+                },
+                [
+                  _c("i", { staticClass: "fas fa-at fa-fw" }),
+                  _vm._v(" Contact")
+                ]
+              )
+            : _vm._e()
+        ],
+        1
+      )
+    ]),
     _vm._v(" "),
     _c("article", [_vm._t("default")], 2)
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "social flex flex-row-reverse float-right" },
+      [
+        _c(
+          "a",
+          {
+            staticClass: "px-2 hover:text-yellow-500",
+            attrs: { href: "https://github.com/MattStrauss" }
+          },
+          [_c("i", { staticClass: "fab fa-github fa-fw" })]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "px-2 hover:text-yellow-500",
+            attrs: { href: "https://twitter.com/mstrauss_dev" }
+          },
+          [_c("i", { staticClass: "fab fa-twitter fa-fw" })]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "px-2 hover:text-yellow-500",
+            attrs: { href: "https://laracasts.com/@mstrauss" }
+          },
+          [_c("i", { staticClass: "fab fa-laravel fa-fw" })]
+        )
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 

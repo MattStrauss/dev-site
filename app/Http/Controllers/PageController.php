@@ -21,4 +21,24 @@ class PageController extends Controller
     {
         return Inertia::render('Contact', ['route' => 'contact']);
     }
+
+    public function contactFormSubmit(Request $request)
+    {
+
+        $this->validate($request, [
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'start' => 'required',
+            'type' => 'required',
+            'remote' => 'required',
+            'description' => 'required',
+        ]);
+
+        /*
+          Add mail functionality here.
+        */
+
+        return response()->json(null, 200);
+
+    }
 }
