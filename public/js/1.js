@@ -144,6 +144,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -154,6 +155,15 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     toggleNavMenu: function toggleNavMenu() {
       this.navMenuOpen = !this.navMenuOpen;
+    }
+  },
+  computed: {
+    getCurrentYear: function getCurrentYear() {
+      var currentDate = new Date();
+      return currentDate.getFullYear();
+    },
+    getCopyright: function getCopyright() {
+      return "&copy;" + this.getCurrentYear + " Matt Strauss. All Rights Reserved.";
     }
   }
 });
@@ -537,7 +547,12 @@ var render = function() {
       )
     ]),
     _vm._v(" "),
-    _c("article", [_vm._t("default")], 2)
+    _c("article", [_vm._t("default")], 2),
+    _vm._v(" "),
+    _c("div", {
+      staticClass: "bg-gray-800 p-4 text-center text-yellow-500 text-xs",
+      domProps: { innerHTML: _vm._s(_vm.getCopyright) }
+    })
   ])
 }
 var staticRenderFns = [

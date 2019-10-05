@@ -19,6 +19,7 @@
         <article>
             <slot />
         </article>
+        <div class="bg-gray-800 p-4 text-center text-yellow-500 text-xs" v-html="getCopyright"></div>
     </main>
 </template>
 
@@ -36,6 +37,14 @@
                 this.navMenuOpen = ! this.navMenuOpen;
             }
         },
+        computed: {
+            getCurrentYear() {
+                let currentDate = new Date();
+                return currentDate.getFullYear();
+            },
+            getCopyright () {
+                return "&copy;"+ this.getCurrentYear + " Matt Strauss. All Rights Reserved.";
+            }
+        }
     }
-
 </script>
