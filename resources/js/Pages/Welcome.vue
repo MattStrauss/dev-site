@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="md:ml-40 md:mr-40 pt-5 text-center">
-                    <h2 class="text-3xl text-yellow-500 font-hairline">Familiar Tech</h2>
+                    <h2 class="text-3xl text-yellow-500 font-hairline">Familiar With</h2>
                     <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
 
                     <div class="flex content-start flex-wrap text text-gray-600 pt-2">
@@ -47,7 +47,7 @@
 
                         <div class="w-1/3 m-2 bg-gray-600 rounded flex-grow p-3">
                             <h4 class="text-xl text-yellow-500 text-bold pt-3">Frontend</h4>
-                            <ul class="no-disc text-yellow-500">
+                            <ul class="no-disc text-yellow-500 mt-auto mb-auto">
                                 <li><strong>Javascript</strong>: Used since 2006</li>
                                 <li><strong>HTML</strong>: Used since 2006</li>
                                 <li><strong>CSS</strong>: Used since 2006</li>
@@ -56,7 +56,6 @@
                                 <li><strong>Angular.js</strong>: Used since 2016</li>
                                 <li><strong>Vue.js</strong>: Used since 2017</li>
                                 <li><strong>Laravel Mix</strong>: Used since 2017</li>
-                                <li><strong>Babel</strong>: Used since 2017</li>
                                 <li><strong>TailwindCss</strong>: Used since 2019</li>
                                 <li><strong>Inertia.js</strong>: Used since 2019</li>
                             </ul>

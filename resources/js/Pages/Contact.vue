@@ -22,7 +22,7 @@
         </div>
         <div class="bg-gray-700 p-4 object-center text-center pb-20">
             <div class="md:ml-64 md:mr-64  pb-5">
-                <p class="text-3xl text-yellow-500 font-hairline">For Hire</p>
+                <p class="text-3xl text-yellow-500 font-hairline">Hire Me</p>
                 <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
                 <p class="italic text-gray-100 text-hairline pt-2">
                     If you'd like to hire me to work on your project or application, please email me at the address above with the details and we can discuss it.
