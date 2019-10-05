@@ -118,7 +118,7 @@
 
         </div>
 
-        <div class="bg-gray-700 p-4 object-center text-center pb-20">
+        <div class="bg-gray-700 p-4 object-center text-center pb-10">
             <div class="md:ml-64 md:mr-64  pb-5">
                 <p class="text-3xl text-yellow-500 font-hairline">Hire Me</p>
                 <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>

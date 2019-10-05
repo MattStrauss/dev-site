@@ -145,6 +145,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -214,7 +215,7 @@ var render = function() {
     _c("div", { staticClass: "object-cover" }, [
       _c(
         "div",
-        { staticClass: "bg-gray-700 p-4 object-center text-center pb-20" },
+        { staticClass: "bg-gray-700 p-4 object-center text-center pb-10" },
         [
           _c("div", { staticClass: "md:ml-40 md:mr-40  pb-5" }, [
             _c("p", { staticClass: "text-3xl text-yellow-500 font-hairline" }, [
@@ -501,14 +502,10 @@ var render = function() {
       _vm._v(" "),
       _c(
         "div",
-        { staticClass: "flex flex-col" },
+        { staticClass: "flex" },
         [
           _c("i", {
-            class: [
-              _vm.navMenuOpen
-                ? "fas fa-bars fa-fw fa-rotate-90 p-2 ml-2 cursor-pointer"
-                : "fas fa-bars fa-fw p-2 cursor-pointer"
-            ],
+            staticClass: "fas fa-bars fa-fw p-2 mr-2 cursor-pointer",
             on: { click: _vm.toggleNavMenu }
           }),
           _vm._v(" "),
@@ -516,10 +513,8 @@ var render = function() {
             ? _c(
                 "inertia-link",
                 {
-                  class:
-                    _vm.$page.route === "welcome"
-                      ? "text-yellow-500 p-2"
-                      : "p-2 hover:text-yellow-500",
+                  staticClass: "p-1 hover:text-yellow-500 ml-1 mr-1",
+                  class: _vm.$page.route === "welcome" ? "text-yellow-500" : "",
                   attrs: { href: "/" }
                 },
                 [_c("i", { staticClass: "fa fa-home fa-fw" }), _vm._v(" Home ")]
@@ -530,10 +525,8 @@ var render = function() {
             ? _c(
                 "inertia-link",
                 {
-                  class:
-                    _vm.$page.route === "contact"
-                      ? "text-yellow-500 p-2"
-                      : "p-2 hover:text-yellow-500",
+                  staticClass: "p-1 hover:text-yellow-500",
+                  class: _vm.$page.route === "contact" ? "text-yellow-500" : "",
                   attrs: { href: "/contact" }
                 },
                 [
@@ -562,7 +555,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "social flex flex-row-reverse float-right" },
+      { staticClass: "social flex flex-row-reverse float-right pt-1" },
       [
         _c(
           "a",

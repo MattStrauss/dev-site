@@ -13,7 +13,7 @@
 
         <div class="object-cover">
 
-            <div class="bg-gray-700 p-4 object-center text-center pb-20">
+            <div class="bg-gray-700 p-4 object-center text-center pb-10">
 
                 <div class="md:ml-40 md:mr-40  pb-5">
                     <p class="text-3xl text-yellow-500 font-hairline">About</p>
