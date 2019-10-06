@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactFormSubmitted;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Inertia\Inertia;
 
 class PageController extends Controller
@@ -34,9 +36,7 @@ class PageController extends Controller
             'description' => 'required',
         ]);
 
-        /*
-          Add mail functionality here.
-        */
+        Mail::to(config('mail.to.address'))->send(new ContactFormSubmitted($request));
 
         return response()->json(null, 200);
 
