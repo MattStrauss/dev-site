@@ -517,7 +517,16 @@ var render = function() {
                   class: _vm.$page.route === "welcome" ? "text-yellow-500" : "",
                   attrs: { href: "/" }
                 },
-                [_c("i", { staticClass: "fa fa-home fa-fw" }), _vm._v(" Home ")]
+                [
+                  _c("i", { staticClass: "fa fa-home fa-fw" }),
+                  _c(
+                    "span",
+                    {
+                      staticClass: "uppercase tracking-wide text-xs font-bold"
+                    },
+                    [_vm._v(" Home")]
+                  )
+                ]
               )
             : _vm._e(),
           _vm._v(" "),
@@ -530,8 +539,14 @@ var render = function() {
                   attrs: { href: "/contact" }
                 },
                 [
-                  _c("i", { staticClass: "fas fa-at fa-fw" }),
-                  _vm._v(" Contact")
+                  _c("i", { staticClass: "fas fa-mail-bulk fa-fw" }),
+                  _c(
+                    "span",
+                    {
+                      staticClass: "uppercase tracking-wide text-xs font-bold"
+                    },
+                    [_vm._v(" Contact")]
+                  )
                 ]
               )
             : _vm._e()

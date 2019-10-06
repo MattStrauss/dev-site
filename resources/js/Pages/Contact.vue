@@ -1,6 +1,6 @@
 <template>
     <layout>
-        <div class="bg-gray-600 p-10 inset-y-auto object-center">
+        <div class="bg-gray-600 p-6 inset-y-auto object-center">
             <div class="text-center text-gray-100">
                 <h2 class="text-3xl font-hairline text-yellow-500">Contact</h2>
                 <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>

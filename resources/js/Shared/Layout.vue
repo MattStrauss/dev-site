@@ -10,9 +10,9 @@
             <div class="flex">
                 <i @click="toggleNavMenu" class="fas fa-bars fa-fw p-2 mr-2 cursor-pointer"></i>
                 <inertia-link v-if="navMenuOpen" href="/" class="p-1 hover:text-yellow-500 ml-1 mr-1" :class="($page.route === 'welcome') ? 'text-yellow-500' : ''">
-                    <i class="fa fa-home fa-fw"></i> Home </inertia-link>
+                    <i class="fa fa-home fa-fw"></i><span class="uppercase tracking-wide text-xs font-bold"> Home</span></inertia-link>
                 <inertia-link v-if="navMenuOpen" href="/contact" class="p-1 hover:text-yellow-500" :class="($page.route === 'contact') ? 'text-yellow-500' : ''">
-                    <i class="fas fa-at fa-fw"></i> Contact</inertia-link>
+                    <i class="fas fa-mail-bulk fa-fw"></i><span class="uppercase tracking-wide text-xs font-bold"> Contact</span></inertia-link>
             </div>
 
             </header>
