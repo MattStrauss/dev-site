@@ -25,12 +25,11 @@
 </template>
 
 <script>
-    import Layout from '@/Shared/Layout'
-
     export default {
         data() {
             return {
                 navMenuOpen: false,
+                title: this.$page.title,
             }
         },
         methods: {
@@ -46,6 +45,14 @@
             getCopyright () {
                 return "&copy;"+ this.getCurrentYear + " Matt Strauss. All Rights Reserved.";
             }
-        }
+        },
+        watch: {
+            title: {
+                immediate: true,
+                handler(title) {
+                    document.title = title;
+                },
+            },
+        },
     }
 </script>
