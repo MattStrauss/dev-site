@@ -45,7 +45,7 @@
                             </ul>
                         </div>
 
-                        <div class="sm:w-1/3 w-full m-2 bg-gray-600 rounded flex-grow p-3">
+                        <div class="sm:w-1/3 w-auto m-2 bg-gray-600 rounded flex-grow p-3">
                             <h4 class="text-2xl text-yellow-500 text-bold pt-3">Frontend</h4>
                             <ul class="no-disc text-yellow-500 mt-auto mb-auto">
                                 <li><strong>Javascript</strong>: Used since 2006</li>
@@ -61,7 +61,7 @@
                             </ul>
                         </div>
 
-                        <div class="sm:w-1/3 w-full m-2 sm:bg-gray-600 bg-yellow-500 rounded flex-grow p-3">
+                        <div class="sm:w-1/3 w-auto m-2 sm:bg-gray-600 bg-yellow-500 rounded flex-grow p-3">
                             <h4 class="text-2xl sm:text-yellow-500 text-bold pt-3">Automated Testing</h4>
                             <ul class="no-disc sm:text-yellow-500">
                                 <li><strong>PHPUnit</strong>: Used since 2016</li>
@@ -69,7 +69,7 @@
                             </ul>
                         </div>
 
-                        <div class="sm:w-1/3 w-full m-2 sm:bg-yellow-500 bg-gray-600 rounded flex-grow p-3">
+                        <div class="sm:w-1/3 w-auto m-2 sm:bg-yellow-500 bg-gray-600 rounded flex-grow p-3">
                             <h4 class="text-2xl sm:text-gray-600 text-yellow-500 text-bold pt-3">Misc.</h4>
                             <ul class="no-disc sm:text-gray-600 text-yellow-500">
                                 <li><strong>WordPress</strong>: Used since 2012</li>
