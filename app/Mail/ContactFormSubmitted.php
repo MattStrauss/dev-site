@@ -30,6 +30,6 @@ class ContactFormSubmitted extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.contact.submitted');
+        return $this->markdown('emails.contact.submitted')->subject('New Dev Site Contact Submission');
     }
 }

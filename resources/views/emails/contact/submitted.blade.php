@@ -2,8 +2,8 @@
 # New Message from Contact Form
 
 @component('mail::table')
-    | Name          | email         | Start      | Type          | Remote
-    | ------------- |:-------------:| --------:| | ------------- |:-------------:|
+    | Name              | email               | Start             | Type               | Remote?       |
+    | :---------------: | :-----------------: | :---------------: | :----------------: | :-------------:|
     | {{$message->name}} | {{$message->email}} | {{$message->start}} | {{$message->type}} | {{$message->remote}} |
 @endcomponent
 

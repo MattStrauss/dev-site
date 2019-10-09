@@ -107,11 +107,12 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-between">
-                    <button @click="clearForm" class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline"  type="button">
+                    <button @click="clearForm" class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline" type="button">
                         Reset Form
                     </button>
-                    <button @click="submit" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline" type="button">
-                        Send
+                    <button @click="submit" :disabled="processing" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline" :class="[(processing) ? 'bg-yellow-600 pointer-events-none' : '']" type="button">
+                        <span v-show="processing" role="status" aria-hidden="true"><i class="fas fa-spinner fa-pulse fa-fw"></i></span>
+                        {{(processing) ? 'Sending...' : 'Send'}}
                     </button>
                 </div>
             </form>
@@ -144,30 +145,28 @@
                 fields: {},
                 errors: {},
                 success: false,
-                loaded: true,
+                processing: false,
             }
         },
         methods: {
             submit() {
-                if (this.loaded) {
-                    this.loaded = false;
-                    this.success = false;
-                    this.errors = {};
-                    axios.post('/contact', this.fields).then(response => {
-                        this.fields = {};
-                        this.loaded = true;
-                        this.success = true;
-                    }).catch(error => {
-                        this.loaded = true;
-                        if (error.response.status === 422) {
-                            this.errors = error.response.data.errors || {};
-                        }
-                    });
-                }
+                this.processing = true;
+                this.success = false;
+                this.errors = {};
+                axios.post('/contact', this.fields).then(response => {
+                    this.fields = {};
+                    this.processing = false;
+                    this.success = true;
+                }).catch(error => {
+                    this.processing = false;
+                    if (error.response.status === 422) {
+                        this.errors = error.response.data.errors || {};
+                    }
+                });
             },
             clearForm() {
                 this.fields = {};
-                this.loaded = true;
+                this.processing = false;
                 this.success = false;
                 this.errors = {};
             }
