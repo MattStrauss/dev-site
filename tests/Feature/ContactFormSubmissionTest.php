@@ -47,4 +47,20 @@ class ContactFormSubmissionTest extends TestCase
 
         Mail::assertNotSent(ContactFormSubmitted::class);
     }
+
+    /** @test */
+    public function contactFormSubmissionSpamDetected()
+    {
+        Mail::fake();
+
+        Mail::assertNothingSent();
+
+        $data = ['name' => 'Matt', 'email' => 'matt@example.net', 'start' => 'ASAP', 'type' => 'Full Stack', 'remote' => 'yes', 'description' => 'something', 'custom' => 'details'];
+
+        $response = $this->post('/contact', $data);
+
+        $response->assertRedirect();
+
+        Mail::assertNotSent(ContactFormSubmitted::class);
+    }
 }

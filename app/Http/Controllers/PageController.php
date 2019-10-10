@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\ContactFormSubmitted;
+use App\Rules\NotFilled;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Inertia\Inertia;
@@ -29,6 +30,7 @@ class PageController extends Controller
             'type' => 'required',
             'remote' => 'required',
             'description' => 'required',
+            'custom' => new NotFilled,
         ]);
 
         Mail::to(config('mail.to.address'))->send(new ContactFormSubmitted($request));

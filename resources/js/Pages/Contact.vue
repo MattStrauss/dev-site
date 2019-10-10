@@ -106,6 +106,9 @@
                         <p v-if="errors && errors.description" class="text-red-400 text-xs italic">{{ errors.description[0] }}</p>
                     </div>
                 </div>
+
+                <input v-model="fields.custom" type="hidden" id="custom" name="custom" value="">
+
                 <div class="flex items-center justify-between">
                     <button @click="clearForm" class="bg-gray-500 hover:bg-gray-400 text-white font-bold py-2 px-6 rounded focus:outline-none focus:shadow-outline" type="button">
                         Reset Form
