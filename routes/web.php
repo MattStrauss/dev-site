@@ -12,6 +12,6 @@
 */
 
 Route::get('/', 'PageController@index')->name('welcome');
+Route::get('/projects', 'PageController@projects')->name('contact');
 Route::get('/contact', 'PageController@contact')->name('contact');
 Route::post('/contact', 'PageController@contactFormSubmit')->name('contactSubmit');
-
