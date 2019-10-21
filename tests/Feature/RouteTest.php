@@ -18,6 +18,14 @@ class RouteTest extends TestCase
     }
 
     /** @test */
+    public function projects()
+    {
+        $response = $this->get('/projects');
+
+        $response->assertStatus(200);
+    }
+
+    /** @test */
     public function contact()
     {
         $response = $this->get('/');
