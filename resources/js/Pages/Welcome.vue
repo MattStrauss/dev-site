@@ -32,54 +32,71 @@
                     <h2 class="text-3xl text-yellow-500 font-hairline">Familiar With</h2>
                     <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
 
-                    <div class="flex content-start flex-wrap flex-col sm:flex-row text-gray-600 pt-2">
+                    <div class="flex content-start flex-wrap flex-col sm:flex-row text-gray-700 pt-2 content-center">
 
-                        <div class="sm:w-1/3 w-auto m-2 bg-yellow-500 rounded flex-grow content-center p-3">
-                            <h4 class="text-2xl text-bold pt-2">Backend</h4>
-                            <ul class="no-disc">
-                                <li><strong>PHP</strong>: Used since 2006</li>
-                                <li><strong>SQL</strong>: Used since 2006</li>
-                                <li><strong>MySQL</strong>: Used since 2006</li>
-                                <li><strong>Laravel</strong>: Used since 2015</li>
-                                <li><strong>NoSQL</strong>: Used since 2018</li>
-                            </ul>
+                        <div class="sm:w-1/3 w-auto border-2 border-gray-800 m-2 bg-gray-200 rounded flex-grow content-center p-3">
+                            <div class="border-b-2 border-gray-600 mb-4">
+                                <h4 class="text-3xl font-thin pt-2">Backend</h4>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHP</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">SQL</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">MySQL</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">NoSQL</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Ruby</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Ruby on Rails</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Redis</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">VBA</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Swift</span>
+                            </div>
                         </div>
 
-                        <div class="sm:w-1/3 w-auto m-2 bg-gray-600 rounded flex-grow p-3">
-                            <h4 class="text-2xl text-yellow-500 text-bold pt-3">Frontend</h4>
-                            <ul class="no-disc text-yellow-500 mt-auto mb-auto">
-                                <li><strong>Javascript</strong>: Used since 2006</li>
-                                <li><strong>HTML</strong>: Used since 2006</li>
-                                <li><strong>CSS</strong>: Used since 2006</li>
-                                <li><strong>JQuery</strong>: Used since 2007</li>
-                                <li><strong>Bootstrap</strong>: Used since 2014</li>
-                                <li><strong>Angular.js</strong>: Used since 2016</li>
-                                <li><strong>Vue.js</strong>: Used since 2017</li>
-                                <li><strong>Laravel Mix</strong>: Used since 2017</li>
-                                <li><strong>TailwindCss</strong>: Used since 2019</li>
-                                <li><strong>Inertia.js</strong>: Used since 2019</li>
-                            </ul>
+                        <div class="sm:w-1/3 w-auto border-2 border-gray-800 m-2 bg-gray-200 rounded flex-grow content-center p-3">
+                            <div class="border-b-2 border-gray-600 mb-4">
+                                <h4 class="text-3xl font-thin pt-2">Frontend</h4>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">HTML</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Javascript</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">CSS</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">JQuery</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Bootstrap</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Angular.js</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Vue.js</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">TailwindCSS</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Inertia.js</span>
+                            </div>
                         </div>
 
-                        <div class="sm:w-1/3 w-auto m-2 sm:bg-gray-600 bg-yellow-500 rounded flex-grow p-3">
-                            <h4 class="text-2xl sm:text-yellow-500 text-bold pt-3">Automated Testing</h4>
-                            <ul class="no-disc sm:text-yellow-500">
-                                <li><strong>PHPUnit</strong>: Used since 2016</li>
-                                <li><strong>Laravel Dusk</strong>: Used since 2017</li>
-                            </ul>
+                        <div class="sm:w-1/3 w-auto border-2 border-gray-800 m-2 bg-gray-200 rounded flex-grow content-center p-3">
+                            <div class="border-b-2 border-gray-600 mb-4">
+                                <h4 class="text-3xl font-thin pt-2">Automated Testing</h4>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHPUnit</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Dusk</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Codeception</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Jest</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Selenium</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Travis CI</span>
+                            </div>
                         </div>
 
-                        <div class="sm:w-1/3 w-auto m-2 sm:bg-yellow-500 bg-gray-600 rounded flex-grow p-3">
-                            <h4 class="text-2xl sm:text-gray-600 text-yellow-500 text-bold pt-3">Misc.</h4>
-                            <ul class="no-disc sm:text-gray-600 text-yellow-500">
-                                <li><strong>WordPress</strong>: Used since 2012</li>
-                                <li><strong>Laravel Cashier</strong>: Used since 2015</li>
-                                <li><strong>PHP Storm (IDE)</strong>: Used since 2016</li>
-                                <li><strong>Laravel Forge</strong>: Used since 2017</li>
-                                <li><strong>Laravel Spark</strong>: Used since 2017</li>
-                                <li><strong>Laravel Valet</strong>: Used since 2018</li>
-                            </ul>
+                        <div class="sm:w-1/3 w-auto border-2 border-gray-800 m-2 bg-gray-200 rounded flex-grow content-center p-3">
+                            <div class="border-b-2 border-gray-600 mb-4">
+                                <h4 class="text-3xl font-thin pt-2">Miscellaneous </h4>
+                            </div>
+                            <div class="px-6 py-4">
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">WordPress</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Cashier</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHPStorm</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Forge</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Valet</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Spark</span>
+                            </div>
                         </div>
+
                     </div>
 
                 </div>
