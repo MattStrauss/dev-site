@@ -128,7 +128,8 @@
                 <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
                 <p class="italic text-gray-100 text-hairline pt-2">
                     If you'd like to hire me to work on your project or application, please fill out the form above with the details so we can discuss it.
-                    To see my current projects and contributions check out my GitHub page.
+                    Feel free to check out my <inertia-link class="hover:text-yellow-500" href="/projects"> personal projects </inertia-link> and my contributions on
+                    <a class="hover:text-yellow-500" href="https://github.com/MattStrauss"> my GitHub page</a>.
                 </p>
             </div>
         </div>

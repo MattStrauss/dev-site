@@ -22,7 +22,7 @@
                         I'm a freelance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are
                         stronger on the backend. But, with the advent of new tools like <a href="https://inertiajs.com/" class="underline hover:text-yellow-500"> Inertia.js</a>
                         and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-500">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
-                        interested in open source software and am a Laravel framework contributor. <strong>I also firmly believe that automated testing saves lives</strong>.
+                        interested in open source software and <strong> firmly believe that automated testing saves lives</strong>.
                         In addition to being a developer, I am currently studying Software Engineering at the Pennsylvania State University to gain deeper insights and a
                         more rigorous understanding of core software concepts, architecture, etc.
                     </p>
