@@ -17,7 +17,7 @@
                 </div>
                 <div class="px-6 py-4">
                     <span v-for="skill in project.skills" class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">
-                        <a @click="filterProjects(skill)"> #{{skill}}</a></span>
+                        <a @click="filterProjects(skill)" class="hover:text-yellow-500 cursor-pointer" > #{{skill}}</a></span>
                 </div>
             </div>
         </div>

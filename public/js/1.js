@@ -250,6 +250,7 @@ var render = function() {
                       _c(
                         "a",
                         {
+                          staticClass: "hover:text-yellow-500 cursor-pointer",
                           on: {
                             click: function($event) {
                               return _vm.filterProjects(skill)
