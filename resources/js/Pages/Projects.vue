@@ -3,9 +3,13 @@
         <div class="bg-gray-600 p-6 inset-y-auto object-center">
             <div class="text-center text-gray-100">
                 <h2 class="text-3xl font-hairline text-yellow-500">Projects</h2>
-                <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
+                <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3"> </div>
             </div>
-            <div v-for="project in projects" class="max-w-lg rounded overflow-hidden bg-gray-200 mt-3 mb-3 shadow-lg mx-auto border-gray-700 border-2">
+            <div v-if="projectsFilteredBy" class="text-center">
+                <span class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2">
+                   "{{ projectsFilteredBy }}" <i @click="clearFilter" class="fas fa-times-circle parent hover:text-red-500"></i></span>
+            </div>
+            <div v-for="project in filteredProjects" class="max-w-lg rounded overflow-hidden bg-gray-200 mt-3 mb-3 shadow-lg mx-auto border-gray-700 border-2">
                 <img class="w-full" :src="project.img">
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2 text-yellow-600"> <a :href="project.link" class="hover:text-yellow-500" v-text="project.name"></a></div>
@@ -29,6 +33,7 @@
         },
         data() {
             return {
+                projectsFilteredBy: '',
                 projects: [
                     {
                         'name': 'Swift Grocery List',
@@ -47,10 +52,24 @@
                 ]
             }
         },
+        computed:
+            {
+                filteredProjects() {
+                    if (this.projectsFilteredBy) {
+                        return this.projects.filter((project) => project.skills.includes(this.projectsFilteredBy));
+                    }
+                    else {
+                        return this.projects;
+                    }
+                }
+            },
         methods:
             {
                 filterProjects(skill) {
-                    this.projects = this.projects.filter((project) => project.skills.includes(skill));
+                    this.projectsFilteredBy = skill;
+                },
+                clearFilter() {
+                    this.projectsFilteredBy = '';
                 },
             },
     }
