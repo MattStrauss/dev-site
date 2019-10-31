@@ -46,13 +46,13 @@ __webpack_require__.r(__webpack_exports__);
       projectsFilteredBy: '',
       projects: [{
         'name': 'Swift Grocery List',
-        'skills': ['laravel', 'vueJS', 'bootstrap4'],
+        'skills': ['laravel', 'vueJS', 'bootstrap4', 'html'],
         'link': 'https://swiftgrocerylist.com',
         'img': '/images/grocery.jpg',
         'description': "A web application that helps you create a grocery shopping list fast. Built with Laravel and Vue.js. Includes recipes, drag-and-drop aisle sorting and much more."
       }, {
         'name': 'Other Project',
-        'skills': ['rails', 'reactJS', 'tailwind'],
+        'skills': ['rails', 'reactJS', 'tailwind', 'html'],
         'link': 'https://google.com',
         'img': '/images/grocery.jpg',
         'description': "Another project"
@@ -194,9 +194,8 @@ var render = function() {
                     "inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-600 mr-2 mb-2"
                 },
                 [
-                  _vm._v(
-                    '\n               "' + _vm._s(_vm.projectsFilteredBy) + '" '
-                  ),
+                  _c("i", { staticClass: "fas fa-filter fa-fw" }),
+                  _vm._v(' "' + _vm._s(_vm.projectsFilteredBy) + '" '),
                   _c("i", {
                     staticClass:
                       "fas fa-times-circle parent hover:text-red-500",
@@ -223,7 +222,7 @@ var render = function() {
                   { staticClass: "font-bold text-xl mb-2 text-yellow-600" },
                   [
                     _c("a", {
-                      staticClass: "hover:text-yellow-500",
+                      staticClass: "hover:text-yellow-700",
                       attrs: { href: project.link },
                       domProps: { textContent: _vm._s(project.name) }
                     })
@@ -250,7 +249,7 @@ var render = function() {
                       _c(
                         "a",
                         {
-                          staticClass: "hover:text-yellow-500 cursor-pointer",
+                          staticClass: "hover:text-yellow-400 cursor-pointer",
                           on: {
                             click: function($event) {
                               return _vm.filterProjects(skill)
