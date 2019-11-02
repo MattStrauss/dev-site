@@ -37,18 +37,11 @@
                 projects: [
                     {
                         'name': 'Swift Grocery List',
-                        'skills': ['laravel', 'vueJS', 'bootstrap4', 'html'],
+                        'skills': ['laravel', 'vueJS', 'bootstrap4'],
                         'link': 'https://swiftgrocerylist.com',
                         'img': '/images/grocery.jpg',
                         'description': "A web application that helps you create a grocery shopping list fast. Built with Laravel and Vue.js. Includes recipes, drag-and-drop aisle sorting and much more."
                     },
-                    {
-                        'name': 'Other Project',
-                        'skills': ['rails', 'reactJS', 'tailwind', 'html'],
-                        'link': 'https://google.com',
-                        'img': '/images/grocery.jpg',
-                        'description': "Another project"
-                    }
                 ]
             }
         },
