@@ -47,7 +47,7 @@
                         'skills': ['laravel', 'Livewire.js', 'TailwindCss'],
                         'link': 'https://github.com/MattStrauss/dresser',
                         'img': '/images/dresser.png',
-                        'description': "A quick and (relatively) dirty mock project to try our Laravel Livewire. The idea was to create a UI that would typically require a decent amount of JS, but to only use Livewire and write zero JS. " +
+                        'description': "A quick and (relatively) dirty mock project to try out Laravel Livewire. The idea was to create a UI that would typically require a decent amount of JS, but to only use Livewire and write zero JS. " +
                             "This is heavily inspired by Caleb Porzio's Guest Spotlight episode on Laracasts where he built an interactive table. It's open source on github, so check it out!"
                     },
                 ]
