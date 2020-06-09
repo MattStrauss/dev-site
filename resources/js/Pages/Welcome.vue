@@ -67,6 +67,7 @@
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Vue.js</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">TailwindCSS</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Inertia.js</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Livewire</span>
                             </div>
                         </div>
 
