@@ -1,7 +1,7 @@
 <template>
     <layout>
           <div class="bg-gray-600 p-10 inset-y-auto object-center">
-            <img class="h-40 w-40 rounded-full mx-auto border-2 border-yellow-500" src="/images/avatar_alt.jpg">
+            <img class="h-40 w-40 rounded-full mx-auto border-2 border-yellow-500" src="/images/avatar_alt_3.jpg">
               <div class="w-16 border-t-4 border-yellow-500 text-center ml-auto mr-auto mt-3 mb-3">  </div>
               <div class="text-center text-gray-100 font-thin">
                   <h2 class="text-lg">Matt Strauss</h2>
@@ -22,7 +22,7 @@
                         I'm a freelance web developer with experience in a range of technologies, see below. While I typically work as a full stack developer, my skills are
                         stronger on the backend. But, with the advent of new tools like <a href="https://inertiajs.com/" class="underline hover:text-yellow-500"> Inertia.js</a>
                         and <a href="https://tailwindcss.com/" class="underline hover:text-yellow-500">TailwindCSS</a>, the frontend is becoming more and more fun. I am keenly
-                        interested in open source software and <strong> firmly believe that automated testing saves lives</strong>.
+                        interested in open source software and <strong> a long time user/fan of automated testing</strong>.
                         In addition to being a developer, I am currently studying Software Engineering at the Pennsylvania State University to gain deeper insights and a
                         more rigorous understanding of core software concepts, architecture, etc.
                     </p>
@@ -50,6 +50,7 @@
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">C++</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">VBA</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Swift</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">MIPS/Assembly</span>
                             </div>
                         </div>
 
@@ -63,6 +64,7 @@
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">CSS</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">JQuery</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Bootstrap</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Alpine.js</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Angular.js</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Vue.js</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">TailwindCSS</span>
@@ -92,6 +94,7 @@
                             <div class="px-6 py-4">
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">WordPress</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Cashier</span>
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Nova</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHPStorm</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Forge</span>
                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Valet</span>
