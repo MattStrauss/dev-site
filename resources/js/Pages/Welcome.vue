@@ -39,18 +39,11 @@
                                 <h4 class="text-3xl font-thin pt-2">Backend</h4>
                             </div>
                             <div class="px-6 py-4">
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHP</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">SQL</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">MySQL</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">NoSQL</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Ruby</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Ruby on Rails</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Redis</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">C++</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">VBA</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Swift</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">MIPS/Assembly</span>
+
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2"
+                                     v-for="skill in skills.backend" :key="skill">{{ skill }}
+                                </span>
+
                             </div>
                         </div>
 
@@ -59,17 +52,11 @@
                                 <h4 class="text-3xl font-thin pt-2">Frontend</h4>
                             </div>
                             <div class="px-6 py-4">
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">HTML</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Javascript</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">CSS</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">JQuery</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Bootstrap</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Alpine.js</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Angular.js</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Vue.js</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">TailwindCSS</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Inertia.js</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Livewire</span>
+
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2"
+                                      v-for="skill in skills.frontend" :key="skill">{{ skill }}
+                                </span>
+
                             </div>
                         </div>
 
@@ -78,12 +65,11 @@
                                 <h4 class="text-3xl font-thin pt-2">Automated Testing</h4>
                             </div>
                             <div class="px-6 py-4">
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHPUnit</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Dusk</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Codeception</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Jest</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Selenium</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Travis CI</span>
+
+                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2"
+                                      v-for="skill in skills.testing" :key="skill">{{ skill }}
+                                </span>
+
                             </div>
                         </div>
 
@@ -92,13 +78,11 @@
                                 <h4 class="text-3xl font-thin pt-2">Miscellaneous </h4>
                             </div>
                             <div class="px-6 py-4">
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">WordPress</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Cashier</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Nova</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">PHPStorm</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Forge</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Valet</span>
-                                <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2">Laravel Spark</span>
+
+                                 <span class="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-gray-100 mr-2 mb-2"
+                                       v-for="skill in skills.misc" :key="skill">{{ skill }}
+                                </span>
+
                             </div>
                         </div>
 
@@ -112,11 +96,25 @@
 </template>
 
 <script>
-    import Layout from '@/Shared/Layout'
+    import Layout from '@/Shared/Layout';
+
+    const skills =
+        {
+            'backend' : ['PHP', 'SQL', 'MySQL', 'Laravel', 'RubyOnRails', 'Ruby', 'Redis', 'C', 'C++', 'Java', 'Swift', 'Mips/Assembly', 'VHDL', 'Livewire'].sort(),
+            'frontend' : ['HTML', 'Javascript', 'CSS', 'Tailwind', 'Bootstrap', 'Alpine.js', 'React.js', 'Vue.js', 'Inertia.js', 'Angular.js', 'Laravel Blade'].sort(),
+            'testing' : ['PHPUnit', 'JUnit', 'Laravel Dusk', 'Codeception', 'Jest', 'Selenium'].sort(),
+            'misc' : ['WordPress', 'Laravel Cashier', 'Laravel Nova', 'Laravel Forge', 'PHP Storm', 'Laravel Spark'].sort()
+        };
 
     export default {
         components: {
             Layout,
         },
+        data: function() {
+            return {
+                skills : skills,
+            }
+        }
+
     }
 </script>
